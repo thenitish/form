@@ -1,33 +1,1043 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>FORM</title>
+	<title>nitisj jaiswal</title>
 	<style>
-		.topdiv{
-			background-color: orange;
-			box-shadow: 1px 1px 20px black;
-			height: 80px;
-			width: 100%;
-			border-radius:20px;
+/*-----------------------------------------------------------------body---------------------------------------------*/
+		body {
+			margin: 0;
+			padding: 0;
 		}
-		.mandiv{
-			background-color:orange;
-			box-shadow: 1px 1px 20px black;
-			height:800PX;
-			width:50%;
-			margin-top: 3%;
-			margin-bottom: 3%;
-			border-radius:20px;
- 		}
+/*----------------------------------------------------------------style-----------------------------------------------*/
+		.mandiv {
+			width: 100%;
+			height: 670px;
+			background-color: #3d3c3a;
+		}
+
+		.nlogo {
+			display: inline;
+			height: 50px;
+			width: 50px;
+			border-radius: 50%;
+			text-align: center;
+			display: inline-block;
+			line-height: 50px;
+			color: pink;
+			font-size: 40px;
+			margin-top: 10px;
+			margin-left: 10px;
+			box-shadow: -2px -2px 8px #3d3c3a,
+				-2px -2px 8px #3d3c3a,
+				inset 2px 2px 4px #717172,
+				1px 0px 3px #808080;
+		}
+
+		.nitish3d {
+			display: inline;
+			font-size: 35px;
+			color: #3d3c3a;
+			font-family: verdana;
+			font-weight: 600;
+			text-shadow: 1px 1px 3px black,
+				1px 1px 3px black,
+				2px 1px 3px black,
+				2px 1px 3px black,
+				3px 1px 3px black,
+				3px 1px 3px black,
+				4px 10px 3px black;
+		}
+
+		.buttontable {
+			float: right;
+			margin-top: -3%;
+			margin-right: 2%;
+		}
+
+		.button {
+			background-color: #3d3c3a;
+			border-radius: 40px;
+			text-decoration: none;
+			color: yellow;
+			margin-right: 14px;
+			font-weight: 500;
+			letter-spacing: 2px;
+			font-size: 14x;
+			text-transform: uppercase;
+			padding: 8px 20px;
+			box-shadow: -2px -2px 8px #3d3c3a,
+				-2px -2px 8px #3d3c3a,
+				inset 2px 2px 4px #717172,
+				1px 0px 3px #808080;
+		}
+
+		.hellocontent {
+			margin-left: 4%;
+			margin-top: 9%;
+			float: left;
+			font-size: 40px;
+			color: grey;
+			font-family: segoe ui black;
+			/*box-shadow: 1px 1px 20px black; */
+
+		}
+		.imgshadow {
+			float: right;
+			margin-right: 20%;
+			margin-top: 30px;
+			height: 30px;
+			width: 250px;
+			background-color: rgb(0, 0, 0, 0.34);
+			border-radius: 60%;
+			filter: blur(5px);
+		}
+
+		.totalimg {
+			height: 480px;
+			width: 400px;
+			background-color: transparent;
+			float: right;
+			margin-top: 6%;
+			margin-right: 10%;
+		}
+		.navdiv {
+			height: 75px;
+			width: 100%;
+			background-color: #0002;
+			border-top-left-radius: 20px;
+			border-top-right-radius: 20px;
+		}
+
+		.manimg {
+			height: 400px;
+			width: 400px;
+			border-radius: 50%;
+			background-image: url('C:/Users/nitish/Desktop/my portfolio/photos/img2 (2).png');
+			background-repeat: no-repeat;
+			background-position: center;
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px -2px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+		}
+/*------------------------------------------------------------------animetion-----------------------------------------*/
+		.animetion1 {
+			height: 120px;
+			width: 120px;
+			border: 20px solid #0007;
+			border-radius: 50%;
+			margin-top: -170px;
+			margin-left: 12%;
+			animation: animetion 3s ease-in-out infinite;
+		}
+
+		@keyframes animetion {
+
+			0%,
+			100% {
+				transform: translatey(0);
+			}
+
+			50% {
+				transform: translatex(95px);
+			}
+		}
+
+	/*--------------------------------------------------------------*/
+		.animetion2 {
+			border-top: 15px solid pink;
+			border-left: 15px solid #06d79c;
+			border-right: 15px solid red;
+			border-bottom: 15px solid blue;
+			animation: spin 4s linear infinite;
+			float: left;
+			margin-left: 5%;
+			margin-top: 30%;
+			box-shadow: 0px 0px 10px black;
+		}
+
+		@keyframes spin {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+
+    /*---------------------------------------------------------------*/
+		/* .animetion3 div{
+            height: 3px;
+            width: 3px;
+            background-color: #95B9C7;
+            margin: 0 3px 3px;
+        }
+        .animetion3{
+        	margin-right: 6%;
+        	margin-top: 0%;
+        	width: 40px;
+        	display: flex;
+        	float:right;
+        	flex-wrap:wrap ;
+        	animation: topbounce 12s ease-in-out infinite;
+        }
+        @keyframes topbounce{
+        	0%{
+        		transform: rotate(180deg);
+        	}	
+        	25%{
+        		transform: translatey(480px);
+        	}
+        	50%{
+        		transform: rotate(180deg);
+        	}
+        	75%{
+        		transform: translatey(480px);
+        	}
+        	100%{
+        		transform: rotate(180deg);
+        	}
+        }*/
+	/*-----------------------------------------------------------------*/
+		.animetion4 {
+			float: right;
+			margin-right: 1%;
+			margin-top: 1%;
+			border: 4px solid #8a49ff;
+			height: 30px;
+			width: 30px;
+			border-radius: 5px;
+			animation: raund 0.3s linear infinite;
+		}
+
+		@keyframes raund {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			100% {
+				transform: rotate(360deg);
+			}
+
+		}
+/*----------------------------------------------------------------------ABOUT ME-------------------------------------*/
+		.hrstyle {
+			width: 250px;
+			height: 2px;
+			border-color: yellow;
+			border-radius: 50%;
+		}
+
+		.breakhr {
+			width: 90%;
+			height: 3px;
+			border-radius: 30%;
+			border-color: grey;
+		}
+
+		.aboutmendiv {
+			height: 800px;
+			width: 100%;
+			background-color: #3d3c3a;
+		}
+
+		.aboutme {
+			font-size: 38px;
+			color: grey;
+			font-weight: 700;
+			display: block;
+		}
+
+		.aboutimgdiv {
+			height: 500px;
+			width: 400px;
+			background-color: transparent;
+			float: left;
+			margin-top: 7%;
+			margin-left: 5%;
+
+		}
+
+		.aboutimg {
+			height: 400px;
+			width: 400px;
+			border-radius: 7%;
+			background-image: url('C:/Users/nitish/Desktop/my portfolio/photos/img2 (1).png');
+			background-repeat: no-repeat;
+			background-position: center;
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px -2px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+		}
+
+		.sociallogo1 {
+			height: 60px;
+			width: 400px;
+			background-color: ;
+			border-radius: 30px;
+			margin-top: 17px;
+
+		}
+
+		.aboutcontent {
+			height: 220px;
+			width: 500px;
+			background-color: ;
+			float: right;
+			margin-top: 13%;
+			margin-right: 12%;
+		}
+
+		.button2 {
+			background-color: #3d3c3a;
+			border-radius: 40px;
+			text-decoration: none;
+			color: yellow;
+			font-weight: 500;
+			letter-spacing: 2px;
+			font-size: 18px;
+			text-transform: uppercase;
+			padding: 11px 22px;
+			float: left;
+			margin-top: 40px;
+			margin-left: 50px;
+			box-shadow: -2px -2px 8px #3d3c3a,
+				-2px -2px 8px #3d3c3a,
+				inset 2px 2px 4px #717172,
+				1px 0px 3px #808080;
+		}
+
+/*-----------------------------------------------------------------skill-----------------------------------------------*/
+		.knowledge {
+			height: 100%;
+			width: 100%;
+			background-color: #3d3c3a;
+		}
+
+		.skillword {
+			font-size: 38px;
+			color: grey;
+			font-weight: 700;
+			display: block;
+		}
+
+		.mandivknowledge {
+			margin-top: 2%;
+			height: 450px;
+			width: 70%;
+			border-radius: 6px;
+			background-color: 3d3c3a;
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px -2px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+		}
+
+		.minibox {
+			height: 60px;
+			width: 600px;
+			background-color: #3d3c3a;
+			margin-top: 15px;
+			border-radius: 6px;
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px 22px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+		}
+
+		.pasentbox {
+			height: 19px;
+			width: 420px;
+			margin-top: 20px;
+			margin-right: 24px;
+			float: right;
+			border-radius: 25px;
+			background-color: #3d3c3a;
+			box-shadow: inset 0.4px 0.1px 13px #717172;
+		}
+
+		.manskillword {
+			font-size: 28px;
+			padding-left: 10px;
+			color: grey;
+			padding-top: 10px;
+			font-weight: 400;
+		}
+
+		.html {
+			width: 75%;
+			height: 12px;
+			margin-top: 3px;
+			border-radius: 25px;
+			margin-left: 5px;
+			background: linear-gradient(to right, white, orange, red, purple);
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px -2px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+		}
+
+		.css {
+			width: 55%;
+			height: 12px;
+			margin-top: 3px;
+			border-radius: 25px;
+			margin-left: 5px;
+			background: linear-gradient(to right, white, orange, red, purple);
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px -2px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+		}
+
+		.C {
+			width: 25%;
+			height: 12px;
+			margin-top: 3px;
+			border-radius: 25px;
+			margin-left: 5px;
+			background: linear-gradient(to right, white, orange, red, purple);
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px -2px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+		}
+
+		.bootstrap {
+			width: 85%;
+			height: 12px;
+			margin-top: 3px;
+			border-radius: 25px;
+			margin-left: 5px;
+			background: linear-gradient(to right, white, orange, red, purple);
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px -2px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+		}
+
+		.wordpress {
+			width: 15%;
+			height: 12px;
+			margin-top: 3px;
+			border-radius: 25px;
+			margin-left: 5px;
+			background: linear-gradient(to right, white, orange, red, purple);
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px -2px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+		}
+
+		.wrapper {
+			display: inline-flex;
+			height: 10vh;
+
+		}
+
+		#socialiconstyle {
+			margin-left: 26px;
+		}
+
+
+		.wrapper i:nth-child(1) {
+			color: #4867AA;
+			cursor: pointer;
+			text-shadow: 0px 7px 0px rgba(0, 0, 0, 0.4);
+			transition: all ease-in-out 150ms;
+		}
+
+		.wrapper i:nth-child(1):hover {
+			margin-top: -10px;
+			text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+			transform: translate(0, -8);
+		}
+
+		.wrapper i:nth-child(2) {
+			color: #1DA1F2;
+			cursor: pointer;
+			text-shadow: 0px 7px 0px rgba(0, 0, 0, 0.4);
+			transition: all ease-in-out 150ms;
+		}
+
+		.wrapper i:nth-child(2):hover {
+			margin-top: -10px;
+			text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+			transform: translate(0, -8);
+		}
+
+		.wrapper i:nth-child(3) {
+			color: #444;
+			cursor: pointer;
+			text-shadow: 0px 7px 0px rgba(0, 0, 0, 0.5);
+			transition: all ease-in-out 150ms;
+		}
+
+		.wrapper i:nth-child(3):hover {
+			margin-top: -10px;
+			text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+			transform: translate(0, -5);
+		}
+
+		.wrapper i:nth-child(4) {
+			color: #fffc00;
+			cursor: pointer;
+			text-shadow: 0px 7px 0px rgba(0, 0, 0, 0.4);
+			transition: all ease-in-out 150ms;
+		}
+
+		.wrapper i:nth-child(4):hover {
+			margin-top: -10px;
+			text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+			transform: translate(0, -8);
+		}
+
+		.input {
+			margin-top: 20px;
+			height: 35px;
+			width: 75%;
+			background-color: #3d3c3a;
+			box-shadow: inset 0.4px 0.1px 13px #717172;
+			border-radius: 17px;
+			border-color: transparent;
+
+		}
+/*-------------------------------------------------------------------my team------------------------------------------*/
+		.group {
+			width: 100%;
+			height: 100%;
+			background-color: #3d3c3a;
+		}
+
+		.myteam {
+			font-size: 38px;
+			color: grey;
+			font-weight: 700;
+			display: block;
+		}
+
+		.group1 {
+			height: 470px;
+			width: 320px;
+			background-color: #3d3c3a;
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px -2px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+			border-radius: 7%;
+			display: inline-block;
+			margin-right: 40px;
+		}
+
+		.men2 {
+			margin-top: 30px;
+			height: 200px;
+			width: 200px;
+			border-radius: 50%;
+			box-shadow: inset 0.4px 0.1px 13px #717172;
+			background-image: url('C:/Users/nitish/Desktop/my portfolio/photos/img2 (3) (2).png');
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		.group2 {
+			height: 470px;
+			width: 320px;
+			background-color: #3d3c3a;
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px -2px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+			border-radius: 7%;
+			display: inline-block;
+			margin-right: 40px;
+		}
+
+		.men1 {
+			margin-top: 30px;
+			height: 200px;
+			width: 200px;
+			border-radius: 50%;
+			box-shadow: inset 0.4px 0.1px 13px #717172;
+			background-image: url('photos/man1.png');
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		.group3 {
+			height: 470px;
+			width: 320px;
+			background-color: #3d3c3a;
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px -2px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+			border-radius: 7%;
+			display: inline-block;
+		}
+
+		.men3 {
+			margin-top: 30px;
+			height: 200px;
+			width: 200px;
+			border-radius: 50%;
+			box-shadow: inset 0.4px 0.1px 13px #717172;
+			background-image: url('photos/man1.png');
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		.nitishcardname {
+			color: grey;
+			font-size: 34px;
+		}
+
+		.nitish {
+			font-size: 18px;
+			color: yellow;
+		}
+
+		.iconimg2 {
+			height: 35px;
+			width: 35x;
+			margin-top: 15px;
+			border-radius: 900px;
+			display: inline-block;
+
+		}
+
+		#instagram:hover {
+			transform: scale(1.2, 1.2);
+		}
+
+		#mans:hover {
+			transform: scale(1.07, 1.07);
+		}
+
+		.iconhr {
+			width: 70%;
+			margin-top: 30px;
+			height: 2px;
+			border-radius: 50%;
+			background-color: yellow;
+		}
+
+/*-----------------------------------------------------------------contect---------------------------------------------*/
+		.contectmandiv {
+			height: 100%;
+			width: 100%;
+			background-color: #3d3c3a;
+		}
+
+		.contectdiv {
+			margin-top: 4%;
+			height: 600px;
+			width: 88%;
+			border-radius: 80px;
+			background-color: 3d3c3a;
+			box-shadow: -2px -2px 12px #3d3c3a,
+				-2px -2px 12px #3d3c3a,
+				inset 2px 2px 12px #717172,
+				1px 0px 6px #808080;
+		}
+
+		.contect {
+			height: 500px;
+			width: 400px;
+			border-radius: 10%;
+			background-color: #3d3c33a;
+			box-shadow: inset 0.4px 0.1px 13px #717172;
+			display: inline-block;
+			margin-right: 60px;
+			float: left;
+			margin-left: 50px;
+			margin-top: 50px;
+
+		}
+
+		.addres {
+			height: 500px;
+			width: 450px;
+			border-radius: 10%;
+			background-color: #3d3c33a;
+			box-shadow: inset 0.4px 0.1px 13px #717172;
+			float: right;
+			margin-right: 50px;
+			margin-top: 50px;
+		}
+
+		.mancontect {
+			font-size: 30px;
+			color: grey;
+		}
+
+		#box {
+			background: url(https://i.imgur.com/bYSnuNE.jpg?1);
+			background-size: cover;
+			border: 2px solid #000;
+			border-radius: 50%;
+			width: 180px;
+			height: 180px;
+			animation: movimiento 5s linear 0s infinite;
+			box-shadow: 0 0 25px RGBA(255, 255, 255, 0.10),
+				-8px -8px 15px #000 inset,
+				2px 2px 25px #000 inset,
+				-45px -45px 25px RGBA(0, 0, 0, 0.5) inset,
+				25px 25px 45px RGBA(0, 0, 0, 0.45) inset;
+			float: right;
+			margin-right: 28%;
+			margin-top: 50px;
+			transform: rotateX(6deg) rotateY(6deg) rotateZ(6deg);
+		}
+
+		@keyframes movimiento {
+			0% {
+				background-position: 0 0
+			}
+
+			100% {
+				background-position: 355px 0
+			}
+		}
+
+		@keyframes stars {
+			0% {
+				background-position: 0 0
+			}
+
+			100% {
+				background-position: 0 100%
+			}
+		}
+
+		.adress1 {
+			font-size: 25px;
+			color: grey;
+		}
+/*----------------------------------------------------------------------HTML-------------------------------------------*/
+/*----------------------------------------------------------------------home-------------------------------------------*/
 	</style>
 </head>
-<body style="background-color: #ffa64a;">
-	<div class="topdiv"></div>
-	<center>
-		<div class="mandiv">
+<body style="background-color:#3d3c3a;">
+	<div class="mandiv">
+		<div class="navdiv">
+			<table class="mantabal">
+				<tr>
+					<td>
+						<div class="nlogo">N</div>
+					</td>
+					<td>
+						<div class="nitish3d">itishjaiswal</div>
+					</td>
+				</tr>
+			</table>
+			<div class="animetion1"></div>
+			<table class="buttontable">
+				<tr>
+					<td>
+						<a href="#about">
+							<button class="button">about me</button>
+						</a>
+					</td>
+					<td>
+						<a href="#skill">
+							<button class="button">skill</button>
+						</a>
+					</td>
+					<td>
+						<a href="#contect">
+							<button class="button">contect</button>
+						</a>
+					</td>
+				</tr>
+			</table>
 		</div>
-	</center>
+		<div class="totalimg">
+			<div class="manimg">
+				<div class="animetion4"></div>
+			</div>
+			<div class="imgshadow"></div>
+		</div>
+		<div class="animetion2"></div>
+		<div class="hellocontent">
+			<span class="font1">
+				hello
+			</span>
+			<br>
+			<span class="font2">
+				I'AM NITIS<span style="color: yellow;">H</span>JAISWAL<span style="color: yellow;">,</span>
+			</span>
+			<br>
+			<span class="font3">
+				<span style="color: yellow;">WEB</span>DEVELOPER
+			</span>
+		</div>
+	</div>
+	<br>
+	<hr class="breakhr">
+	<br>
+<!-- ------------------------------------------------------------------about me---------------------------------------->
+	<div class="aboutmendiv" id="about">
+		<br>
+		<center>
+			<hr class="hrstyle"><span class="aboutme">ABOUT ME</span>
+			<hr class="hrstyle">
+		</center>
+		<div class="aboutimgdiv">
+			<div class="aboutimg">
+			</div>
+			<div class="sociallogo1">
+				<link rel="stylesheet"
+					href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+				<div class="wrapper">
+					<a href=""><i id="socialiconstyle" class="fa fa-5x fa-facebook-square"></i></a>
+					<i id="socialiconstyle" class="fa fa-5x fa-twitter-square"></i>
+					<i id="socialiconstyle" class="fa fa-5x fa-github-square"></i>
+					<i id="socialiconstyle" class="fa fa-5x fa-snapchat-square"></i>
+				</div>
+			</div>
+		</div>
+		<div class="aboutcontent"><span style="color: GREY;">
+				<h2>HII,<br>MY NAME IS "NITISHJAISWAL" IAM IN L'S RAHEJA COLLEGE 1ST YEAR IN COMPUTER SCINCE <br> I KNOW
+					HTML,CSS,C,AND BOOTSTRAP,WORDPRESS ETC</h2>
+			</span>
+			<button class="button2">HEAR ME</button>
+		</div>
+	</div>
+	</div>
+	<hr class="breakhr">
+	<br>
+<!----------------------------------------------------------------------skill-------------------------------------- -->
+	<div class="knowledge" id="skill">
+		<br>
+		<center>
+			<hr class="hrstyle">
+			<span class="skillword">SKILL</span>
+			<hr class="hrstyle">
+		</center>
+		<center>
+			<br>
+			<div class="mandivknowledge">
+				<br>
+				<div class="pb1">
+					<table>
+						<tr>
+							<td>
+								<div class="minibox">
+									<span class="manskillword">HTML</span>
+									<div class="pasentbox"><span
+											style="float: right; padding-right: 60px; color: white;">75%</span>
+										<div class="html"></div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="minibox">
+									<span class="manskillword">CSS</span>
+									<div class="pasentbox"><span
+											style="float: right; padding-right: 145px; color: white;">55%</span>
+										<div class="css"></div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="minibox">
+									<span class="manskillword">C</span>
+									<div class="pasentbox"><span
+											style="float: right; padding-right: 270px; color: white;">25%</span>
+										<div class="C"></div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="minibox">
+									<span class="manskillword">Bootstrap</span>
+									<div class="pasentbox"><span
+											style="float: right; padding-right: 20px; color: white;">85%</span>
+										<div class="bootstrap"></div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="minibox">
+									<span class="manskillword">wordpress</span>
+									<div class="pasentbox"><span
+											style="float: right; padding-right: 315px; color: white;">15%</span>
+										<div class="wordpress"></div>
+									</div>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+		</center>
+		<br><br><br><br>
+		<hr class="breakhr">
+<!-- -----------------------------------------------------------------------my team--------------------------------- -->
+		<div class="group" id="team">
+			<br>
+			<hr class="hrstyle" style="margin-top: 25px;">
+			<center><span class="myteam">MY TEAM</span></center>
+			<hr class="hrstyle">
+			<br><br>
+			<center>
+				<div class="group1" id="mans">
+					<div class="men1"></div><br><span class="nitishcardname">nitish jaiswal</span><br><br><span
+						class="nitish">1st year in computer</span>
+					<br>
+					<br>
+					<a href="https:www.instagram.com/n4nitis" target="_blank" style="color: transparent;">
+						<img src="photos\instagram.jpg" class="iconimg2" class="social" id="instagram"
+							style="box-shadow: 0px 0px 20px black;margin-left:10px;" id="instagram">
+					</a>
+
+					<a href="https://web.whatsapp.com/9867657546" target="_blank" style="color: transparent;">
+						<img src="photos\whatsapp.jpg" class="iconimg2" id="instagram"
+							style="margin-left: 15px;box-shadow: 0px 0px 20px black;">
+					</a>
+
+					<a href="https://twitter.com/nitishj87137878" target="_blank" style="color: transparent;">
+						<img src="photos\twitter.jpg" class="iconimg2" id="instagram"
+							style="margin-left: 10px;margin-left: 15px;box-shadow: 0px 0px 20px black;">
+					</a>
+
+					<a href="https://www.facebook.com/profile.php?id=100013471294419" target="_blank"
+						style="color: transparent;">
+						<img src="photos\facebook.jpg" class="iconimg2" id="instagram"
+							style="margin-left: 10px;box-shadow: 0px 0px 20px black;">
+					</a>
+					<hr class="iconhr">
+				</div>
+				<div class="group1" id="mans">
+					<div class="men2"></div><br><span class="nitishcardname">nitish jaiswal</span><br><br><span
+						class="nitish">1st year in computer</span>
+					<br>
+					<br>
+					<a href="https:www.instagram.com/n4nitis" target="_blank" style="color: transparent;">
+						<img src="photos\instagram.jpg" class="iconimg2" class="social" id="instagram"
+							style="box-shadow: 0px 0px 20px black;margin-left:10px;" id="instagram">
+					</a>
+
+					<a href="https://web.whatsapp.com/9867657546" target="_blank" style="color: transparent;">
+						<img src="photos\whatsapp.jpg" class="iconimg2" id="instagram"
+							style="margin-left: 15px;box-shadow: 0px 0px 20px black;">
+					</a>
+
+					<a href="https://twitter.com/nitishj87137878" target="_blank" style="color: transparent;">
+						<img src="photos\twitter.jpg" class="iconimg2" id="instagram"
+							style="margin-left: 10px;margin-left: 15px;box-shadow: 0px 0px 20px black;">
+					</a>
+
+					<a href="https://www.facebook.com/profile.php?id=100013471294419" target="_blank"
+						style="color: transparent;">
+						<img src="photos\facebook.jpg" class="iconimg2" id="instagram"
+							style="margin-left: 10px;box-shadow: 0px 0px 20px black;">
+					</a>
+					<hr class="iconhr">
+				</div>
+				<div class="group1" id="mans">
+					<div class="men3"></div><br><span class="nitishcardname">nitish jaiswal</span><br><br><span
+						class="nitish">1st year in computer</span>
+					<br>
+					<br>
+					<a href="https:www.instagram.com/n4nitis" target="_blank" style="color: transparent;">
+						<img src="photos\instagram.jpg" class="iconimg2" class="social" id="instagram"
+							style="box-shadow: 0px 0px 20px black;margin-left:10px;" id="instagram">
+					</a>
+
+					<a href="https://web.whatsapp.com/9867657546" target="_blank" style="color: transparent;">
+						<img src="photos\whatsapp.jpg" class="iconimg2" id="instagram"
+							style="margin-left: 15px;box-shadow: 0px 0px 20px black;">
+					</a>
+
+					<a href="https://twitter.com/nitishj87137878" target="_blank" style="color: transparent;">
+						<img src="photos\twitter.jpg" class="iconimg2" id="instagram"
+							style="margin-left: 10px;margin-left: 15px;box-shadow: 0px 0px 20px black;">
+					</a>
+
+					<a href="https://www.facebook.com/profile.php?id=100013471294419" target="_blank"
+						style="color: transparent;">
+						<img src="photos\facebook.jpg" class="iconimg2" id="instagram"
+							style="margin-left: 10px;box-shadow: 0px 0px 20px black;">
+					</a>
+					<hr class="iconhr">
+				</div>
+			</center>
+			<br><br>
+			<hr class="breakhr" id="contect">
+		</div>
+		<br><br>
+<!--------------------------- -----------------------------------------------contect--------------------------------- -->
+		<div class="contectmandiv">
+			<hr class="hrstyle">
+			<center><span class="myteam">CONTECT</span></center>
+			<hr class="hrstyle">
+
+			<center>
+				<div class="contectdiv">
+					<div class="contect">
+						<br>
+						<center><span class="mancontect">contect us</span>
+							<hr class="hrstyle">
+							<form>
+								<input required="" placeholder="   your name*" type="text box" name="" class="input"
+									title="  fill your name*" style="margin-top: 50px;">
+								<br>
+								<input title="fill your email address" required="" placeholder="   your email address*"
+									type="email" name="" class="input">
+								<br>
+								<textarea class="input" required="" placeholder="   your message"
+									title="please fill your message"></textarea>
+								<br>
+								<input required="" placeholder="   your feedback for website" type="box" name=""
+									class="input">
+								<button style="margin-top: 30px;background-color:#3d3c3a; 
+		border-radius:40px;
+		text-decoration: none;
+		color: yellow;
+		font-weight:500;
+		letter-spacing: 2px;
+		font-size: 18px;
+		text-transform: uppercase;
+		box-shadow:-2px -2px 8px  #3d3c3a,
+			       -2px -2px 8px #3d3c3a,
+			  inset 2px  2px 4px  #717172,
+			        1px  0px 3px  #808080;
+			        padding: 11px 22px;">submit</button>
+							</form>
+						</center>
+					</div>
+
+					<div class="addres">
+						<br>
+						<center><span class="mancontect">adress</span>
+							<hr class="hrstyle"><br><br><span class="adress1">INDIA MAHARASTRA MUMBAI<br> SANTACRUZZ(E)
+								GAWDEVI <br>VAKOLA PAIP LINE ROOM NUMBER.22,</span>
+						</center>
+						<div id="box"></div>
+					</div>
+
+
+				</div>
+			</center>
+			<br><br>
+		</div>
+		<br><br>
+		<hr class="breakhr">
+		<br><br>
 </body>
+
 </html>
